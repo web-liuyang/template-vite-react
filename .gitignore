@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+*.local
+
+node_modules
+dist
+dist-ssr
+build
+build-ssr
