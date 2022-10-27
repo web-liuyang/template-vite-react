@@ -18,12 +18,14 @@
     "baseUrl": "./",
     "paths": {
       "@": ["src"],
+      "@api/*": ["src/api/*"],
       "@api": ["src/api"],
       "@pages/*": ["src/pages/*"],
+      "@store/*": ["src/store/*"],
       "@store": ["src/store"],
       "@router": ["src/router"]
     }
   },
   "include": ["./src"],
-    "exclude": ["node_modules"]
+  "exclude": ["node_modules"]
 }
